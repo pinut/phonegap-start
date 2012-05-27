@@ -9,6 +9,9 @@ run(function () {
         } else {
             alert("We can reach Google - get ready for some awesome maps!");
         }
+        document.addEventListener("backbutton", function () {
+        	alert("back?")
+        }, true);
     })();
     
     // a little inline controller
